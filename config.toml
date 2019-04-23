@@ -1,12 +1,12 @@
-baseURL = "https://dwalkr.github.io/sawmill/"
+baseURL = "https://evankerrickford/"
 languageCode = "en-us"
-theme = "sawmill"
-title = "Sawmill"
+theme = "pitchdeck-theme"
+title = "Pitchdeck Theme"
 [Author]
-name = "DJ Walker"
+name = "EKF"
 [[menu.main]]
 name = "View on Github"
-url = "https://github.com/dwalkr/sawmill"
+url = "https://github.com/evankford/pitchdecktheme"
 weight = 10
 [params]
 logo = "/logo.svg"
