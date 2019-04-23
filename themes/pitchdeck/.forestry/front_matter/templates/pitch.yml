@@ -1,0 +1,49 @@
+---
+label: Pitch
+hide_body: true
+fields:
+- name: slides
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: slides
+  label: Slides
+  description: Ordered list of slides to include
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Pitch Title (SEO/TITLE)
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: Subtitle
+  description: Pitch subtite
+- name: default_background_color
+  type: color
+  label: Default Background Color
+  config:
+    required: false
+    color_format: Hex
+- name: default_text_color
+  type: color
+  label: Default Text color
+  config:
+    required: false
+    color_format: Hex
+- name: default_accent_color
+  type: color
+  config:
+    required: false
+    color_format: Hex
+  label: Default Accent Color
+- name: enable_pagination
+  type: boolean
+  label: Enable Pagination
+  description: Shows Pagination in bottom right corner

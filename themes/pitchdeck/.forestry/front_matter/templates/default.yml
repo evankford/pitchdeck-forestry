@@ -1,0 +1,12 @@
+---
+label: default
+hide_body: false
+fields:
+- name: content
+  type: blocks
+  label: Content
+  template_types: []
+  config:
+    min: 
+    max: 
+  description: Main content of slide!

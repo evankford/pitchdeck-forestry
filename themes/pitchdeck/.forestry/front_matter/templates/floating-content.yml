@@ -1,0 +1,84 @@
+---
+label: Floating Content
+hide_body: false
+fields:
+- name: position
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Top Left
+    - Top Right
+    - Top Center
+    - Bottom Left
+    - Bottom Right
+    - " Bottom Center"
+    - Center Center
+    - Center Left
+    - Center Right
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Position
+  description: Position of content
+- name: size
+  type: select
+  default: Medium
+  config:
+    required: false
+    options:
+    - Small
+    - Medium
+    - Large
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Size
+  description: Size of text box
+- name: content
+  type: blocks
+  label: Content
+  template_types:
+  - image
+  - header
+  - body-copy
+  config:
+    min: 
+    max: 
+- name: border_style
+  type: select
+  default: None
+  config:
+    required: false
+    options:
+    - Left
+    - Top
+    - Bottom
+    - Right
+    - None
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Border Style
+- name: align
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Left
+    - Center
+    - Right
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Content Alignment

@@ -1,8 +1,6 @@
 ---
-pages:
-- _index.md
+label: Page
 hide_body: true
-is_partial: false
 fields:
 - type: text
   name: title

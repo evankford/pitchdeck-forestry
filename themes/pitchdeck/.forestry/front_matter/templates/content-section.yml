@@ -1,0 +1,70 @@
+---
+label: Content Section
+hide_body: true
+display_field: title
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Slide Title (Internal Use)
+- name: layout
+  type: select
+  default: Vertical
+  config:
+    required: true
+    options:
+    - Vertical
+    - Horizontal
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Layout
+  description: Layout (horizontal or vertical) of content by default!
+- name: content
+  type: blocks
+  template_types:
+  - button
+  - floating-content
+  - body-copy
+  - header
+  - image
+  - full-page-slide
+  - divider
+  config:
+    min: '1'
+    max: '10'
+  label: Content
+  description: Content Blocks (images, text, and video) go here!
+- name: background_color
+  type: color
+  config:
+    required: false
+    color_format: Hex
+  label: Background Color
+  description: Background Color
+- name: text_color
+  type: color
+  label: Text Color
+  config:
+    required: false
+    color_format: Hex
+  description: Text Color
+- name: align
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Left
+    - Center
+    - Right
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Content Alignment

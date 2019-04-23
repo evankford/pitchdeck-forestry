@@ -1,6 +1,7 @@
 ---
+label: Button
 hide_body: false
-is_partial: true
+display_field: button_text
 fields:
 - type: text
   name: button_url
@@ -8,3 +9,7 @@ fields:
 - type: text
   name: button_text
   label: Button text
+- name: new_window
+  type: boolean
+  label: New Window?
+  description: Open in new window?
