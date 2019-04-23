@@ -49,3 +49,20 @@ fields:
   config:
     min: 
     max: 
+- name: border_style
+  type: select
+  default: None
+  config:
+    required: false
+    options:
+    - Left
+    - Top
+    - Bottom
+    - Right
+    - None
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Border Style
