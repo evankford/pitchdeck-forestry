@@ -4,10 +4,6 @@ auto_deploy: true
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: content/data.md
-  label: Data-Test
-  match: "**/*"
 - type: directory
   path: pitches
   label: Pitches
