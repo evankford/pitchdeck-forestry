@@ -21,5 +21,10 @@ all_caps_ = true
 content = "High-quality support that's **good for the sole.**"
 size = "Large"
 template = "body-copy"
+[[slide_content.content]]
+alt_text = "Simplr"
+image = "/uploads/2019/04/23/simplr.png"
+size = "Logo - Small"
+template = "image"
 
 +++
