@@ -1,4 +1,23 @@
 ---
 label: Slide
 hide_body: false
-fields: []
+fields:
+- name: slide_content
+  type: blocks
+  label: Slide Content
+  template_types:
+  - full-page-slide
+  - floating-content
+  - content-section
+  - decoration
+  config:
+    min: 
+    max: 
+  description: Slide Content
+- name: background
+  type: color
+  config:
+    required: false
+    color_format: Hex
+  label: Background
+  description: Slide Background
