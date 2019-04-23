@@ -1,4 +1,24 @@
 ---
 label: Image Grid
 hide_body: false
-fields: []
+fields:
+- name: images
+  type: image_gallery
+  config: {}
+  label: Images
+  description: All Images go here!
+- name: grid_size
+  type: select
+  default: Medium
+  config:
+    required: true
+    options:
+    - X-Small
+    - Medium
+    - Large
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Grid Size
