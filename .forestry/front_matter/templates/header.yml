@@ -1,4 +1,32 @@
 ---
 label: Header
 hide_body: true
-fields: []
+fields:
+- name: header_text
+  type: text
+  config:
+    required: true
+  label: Header Text
+  description: Text of the header
+- name: caps
+  type: boolean
+  label: Caps
+  description: Capitalize header?
+- name: size
+  type: select
+  default: Medium
+  config:
+    required: true
+    options:
+    - X-Small
+    - Small
+    - Medium
+    - Large
+    - X-Large
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Size
+  description: Size of header
