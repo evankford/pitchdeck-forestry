@@ -6,7 +6,7 @@ default_text_color = "#5B5B5B"
 draft = true
 enable_pagination = false
 slides = ["slides/Allbirds-front.md"]
-subtitle = "HIGH-QUALITY SUPPORT THAT’S GOOD FOR THE SOLE"
+subtitle = "HIGH-QUALITY SUPPORT THAT’S GOOD FOR THE SOLE "
 title = "Simplr & Allbirds - Comfort & Service"
 
 +++
