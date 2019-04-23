@@ -5,24 +5,26 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: pitches
+  label: Pitches
+  create: all
+  match: "**/*"
+  templates:
+  - slide
+  - pitch
+- type: directory
   path: slides
   label: Slides
   create: documents
   match: "**/*"
-- type: document
-  path: pitches
-  label: Pitches
+  templates:
+  - slide
 - type: directory
   path: data
   label: Data-test
   create: all
   match: "**/*"
   new_doc_ext: yml
-- type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: "/uploads"
