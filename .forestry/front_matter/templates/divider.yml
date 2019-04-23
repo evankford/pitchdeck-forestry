@@ -1,0 +1,7 @@
+---
+label: Divider
+hide_body: true
+fields:
+- name: enable_background
+  type: boolean
+  label: Enable Background
