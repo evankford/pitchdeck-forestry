@@ -12,7 +12,6 @@ sections:
 - type: document
   path: pitches
   label: Pitches
-  match: "**/*"
 - type: directory
   path: data
   label: Data-test
