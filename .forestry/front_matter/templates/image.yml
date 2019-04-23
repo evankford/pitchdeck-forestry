@@ -32,3 +32,9 @@ fields:
       path: 
   label: Size
   description: Size of image
+- name: mobile_image
+  type: file
+  config:
+    maxSize: '20'
+  label: Mobile Image
+  description: Mobile Image - Important to upload a reformatted image for mobile!
