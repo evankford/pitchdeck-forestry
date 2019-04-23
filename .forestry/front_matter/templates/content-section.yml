@@ -38,9 +38,9 @@ fields:
     color_format: Hex
   label: Background Color
   description: Background Color
-- name: text_coor
+- name: text_color
   type: color
-  label: Text Coor
+  label: Text Color
   config:
     required: false
     color_format: Hex
