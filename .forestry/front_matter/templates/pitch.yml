@@ -43,3 +43,7 @@ fields:
     required: false
     color_format: Hex
   label: Default Accent Color
+- name: enable_pagination
+  type: boolean
+  label: Enable Pagination
+  description: Shows Pagination in bottom right corner
