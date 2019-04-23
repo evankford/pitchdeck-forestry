@@ -17,7 +17,9 @@ image = "/uploads/2019/04/23/allbirds.png"
 size = "Logo - Small"
 template = "image"
 [[slide_content.content]]
-content = "HIGH-QUALITY SUPPORT THAT’S GOOD FOR THE SOLE"
+all_caps_ = true
+content = "High-quality support that's **good for the sole.**"
+size = "Large"
 template = "body-copy"
 
 +++
