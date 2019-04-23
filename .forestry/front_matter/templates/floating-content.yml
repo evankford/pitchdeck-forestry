@@ -1,4 +1,51 @@
 ---
 label: Floating Content
 hide_body: false
-fields: []
+fields:
+- name: position
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Top Left
+    - Top Right
+    - Top Center
+    - Bottom Left
+    - Bottom Right
+    - " Bottom Center"
+    - Center Center
+    - Center Left
+    - Center Right
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Position
+  description: Position of content
+- name: size
+  type: select
+  default: Medium
+  config:
+    required: false
+    options:
+    - Small
+    - Medium
+    - Large
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Size
+  description: Size of text box
+- name: content
+  type: blocks
+  label: Content
+  template_types:
+  - media-feature
+  - media-feature
+  config:
+    min: 
+    max: 
