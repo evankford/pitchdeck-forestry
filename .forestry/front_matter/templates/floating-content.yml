@@ -44,8 +44,9 @@ fields:
   type: blocks
   label: Content
   template_types:
-  - media-feature
-  - media-feature
+  - image
+  - header
+  - body-copy
   config:
     min: 
     max: 
