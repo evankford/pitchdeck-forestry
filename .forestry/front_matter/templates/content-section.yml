@@ -53,3 +53,18 @@ fields:
     required: false
     color_format: Hex
   description: Text Color
+- name: align
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Left
+    - Center
+    - Right
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Content Alignment
