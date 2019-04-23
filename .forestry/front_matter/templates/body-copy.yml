@@ -10,3 +10,19 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+- name: size
+  type: select
+  default: Regular
+  config:
+    required: false
+    options:
+    - Small
+    - Regular
+    - Large
+    - XL
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Size
