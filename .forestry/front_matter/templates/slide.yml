@@ -21,5 +21,3 @@ fields:
     color_format: Hex
   label: Background
   description: Slide Background
-pages:
-- slides/Allbirds-front.md
