@@ -1,7 +1,7 @@
 baseURL = "https://evankerrickford/"
 languageCode = "en-us"
-theme = "pitchdeck-theme"
-title = "Pitchdeck Theme"
+theme = "pitchdeck"
+title = "Pitchdeck"
 [Author]
 name = "EKF"
 [[menu.main]]
@@ -9,4 +9,4 @@ name = "View on Github"
 url = "https://github.com/evankford/pitchdecktheme"
 weight = 10
 [params]
-logo = "/logo.svg"
+logo = "/logo.svg "
