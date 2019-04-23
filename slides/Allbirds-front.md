@@ -7,9 +7,10 @@ background_color = "#8B572A"
 background_image = "/uploads/2019/04/23/front-cover.jpg"
 template = "full-page-slide"
 [[slide_content]]
-border_style = "None"
-position = "Top Left"
-size = "Medium"
+align = "Left"
+border_style = "Left"
+position = "Bottom Right"
+size = "Small"
 template = "floating-content"
 [[slide_content.content]]
 alt_text = "Simplr"
