@@ -1,4 +1,34 @@
 ---
 label: Image
 hide_body: true
-fields: []
+fields:
+- name: image
+  type: file
+  config:
+    maxSize: '20'
+  label: Image
+  description: Image Upload Here (Bigger is better!)
+- name: alt_text
+  type: text
+  config:
+    required: false
+  label: Alt Text
+  description: Alt text for image!
+- name: size
+  type: select
+  default: Logo - Small
+  config:
+    required: true
+    options:
+    - Logo - Small
+    - Logo - Large
+    - Full-size
+    - Medium
+    - Large
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Size
+  description: Size of image
