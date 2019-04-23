@@ -11,5 +11,10 @@ border_style = "None"
 position = "Top Left"
 size = "Medium"
 template = "floating-content"
+[[slide_content.content]]
+alt_text = "Simplr"
+image = "/uploads/2019/04/23/allbirds.png"
+size = "Logo - Small"
+template = "image"
 
 +++
