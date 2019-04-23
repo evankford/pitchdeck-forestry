@@ -33,6 +33,7 @@ fields:
   - header
   - image
   - full-page-slide
+  - divider
   config:
     min: '1'
     max: '10'
