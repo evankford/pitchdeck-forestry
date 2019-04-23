@@ -1,7 +1,14 @@
 ---
 label: Content Section
-hide_body: false
+hide_body: true
+display_field: title
 fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Slide Title (Internal Use)
 - name: layout
   type: select
   default: Vertical
