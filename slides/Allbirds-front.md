@@ -1,0 +1,15 @@
++++
+background = ""
+date = "2019-04-23T19:17:11+00:00"
+draft = true
+[[slide_content]]
+background_color = "#8B572A"
+background_image = "/uploads/2019/04/23/front-cover.jpg"
+template = "full-page-slide"
+[[slide_content]]
+border_style = "None"
+position = "Top Left"
+size = "Medium"
+template = "floating-content"
+
++++
