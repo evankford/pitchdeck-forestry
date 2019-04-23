@@ -16,5 +16,8 @@ alt_text = "Simplr"
 image = "/uploads/2019/04/23/allbirds.png"
 size = "Logo - Small"
 template = "image"
+[[slide_content.content]]
+content = "HIGH-QUALITY SUPPORT THAT’S GOOD FOR THE SOLE"
+template = "body-copy"
 
 +++
