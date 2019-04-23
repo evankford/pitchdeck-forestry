@@ -47,3 +47,5 @@ fields:
   type: boolean
   label: Enable Pagination
   description: Shows Pagination in bottom right corner
+pages:
+- pitches/simplr-allbirds-comfort-service.md
