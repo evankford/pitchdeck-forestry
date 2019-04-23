@@ -21,6 +21,11 @@ fields:
   type: blocks
   template_types:
   - button
+  - floating-content
+  - body-copy
+  - header
+  - image
+  - full-page-slide
   config:
     min: '1'
     max: '10'
