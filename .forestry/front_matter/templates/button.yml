@@ -9,3 +9,7 @@ fields:
 - type: text
   name: button_text
   label: Button text
+- name: new_window
+  type: boolean
+  label: New Window?
+  description: Open in new window?
