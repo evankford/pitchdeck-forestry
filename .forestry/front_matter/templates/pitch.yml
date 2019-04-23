@@ -1,4 +1,40 @@
 ---
 label: Pitch
 hide_body: true
-fields: []
+fields:
+- name: all_slides
+  type: include
+  config: {}
+  template: slide
+  label: All Slides
+  description: Slides
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Pitch Title (SEO/TITLE)
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: Subtitle
+  description: Pitch subtite
+- name: default_background_color
+  type: color
+  label: Default Background Color
+  config:
+    required: false
+    color_format: Hex
+- name: default_text_color
+  type: color
+  label: Default Text color
+  config:
+    required: false
+    color_format: Hex
+- name: default_accent_color
+  type: color
+  config:
+    required: false
+    color_format: Hex
+  label: Default Accent Color
