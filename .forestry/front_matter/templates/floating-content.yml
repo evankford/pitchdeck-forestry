@@ -67,3 +67,18 @@ fields:
       file: 
       path: 
   label: Border Style
+- name: align
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Left
+    - Center
+    - Right
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Content Alignment
