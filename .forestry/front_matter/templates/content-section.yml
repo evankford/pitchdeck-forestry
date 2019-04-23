@@ -31,3 +31,17 @@ fields:
     max: '10'
   label: Content
   description: Content Blocks (images, text, and video) go here!
+- name: background_color
+  type: color
+  config:
+    required: false
+    color_format: Hex
+  label: Background Color
+  description: Background Color
+- name: text_coor
+  type: color
+  label: Text Coor
+  config:
+    required: false
+    color_format: Hex
+  description: Text Color
