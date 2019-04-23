@@ -1,4 +1,28 @@
 ---
 label: Content Section
 hide_body: false
-fields: []
+fields:
+- name: layout
+  type: select
+  default: Vertical
+  config:
+    required: true
+    options:
+    - Vertical
+    - Horizontal
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Layout
+  description: Layout (horizontal or vertical) of content by default!
+- name: content
+  type: blocks
+  template_types:
+  - button
+  config:
+    min: '1'
+    max: '10'
+  label: Content
+  description: Content Blocks (images, text, and video) go here!
