@@ -2,6 +2,39 @@
 label: Divider
 hide_body: true
 fields:
-- name: enable_background
-  type: boolean
-  label: Enable Background
+- name: border_style
+  type: select
+  default: Half
+  config:
+    required: false
+    options:
+    - Half
+    - None
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Border Style
+- name: border_color
+  type: color
+  label: Border Color
+  config:
+    required: false
+    color_format: RGB
+  default: rgb(181, 181, 181)
+- name: size
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Small
+    - Medium
+    - Large
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Size
