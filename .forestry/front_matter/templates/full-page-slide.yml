@@ -1,4 +1,17 @@
 ---
-label: Full Page Slide
+label: Background Image
 hide_body: false
-fields: []
+fields:
+- name: background_image
+  type: file
+  config:
+    maxSize: '100'
+  label: Background Image
+  description: Full Background image (leave blank for none)
+- name: background_color
+  type: color
+  label: Background Color
+  config:
+    required: false
+    color_format: Hex
+  description: Fallback color for background
