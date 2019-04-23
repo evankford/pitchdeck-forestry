@@ -2,12 +2,17 @@
 label: Pitch
 hide_body: true
 fields:
-- name: all_slides
-  type: include
-  config: {}
-  template: slide
-  label: All Slides
-  description: Slides
+- name: slides
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: slides
+  label: Slides
+  description: Ordered list of slides to include
 - name: title
   type: text
   config:
