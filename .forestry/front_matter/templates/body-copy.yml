@@ -26,3 +26,6 @@ fields:
       file: 
       path: 
   label: Size
+- name: all_caps_
+  type: boolean
+  label: All Caps?
