@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: content/pitches
+  path: content/pitch
   label: Pitches
   create: all
   match: "**/*"
