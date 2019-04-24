@@ -1,0 +1,39 @@
+{{$image := false }}
+{{$path := false }}
+{{$style := false }}
+{{if  .Params.background_image  }}
+{{$style = "cover"}}
+{{ $path = .Params.background_image}} 
+
+{{ $image = resources.Get  $path | assetDir }}
+{{end}}
+{{ if fileExists $image}}
+{{$imgData := imageConfig $image}}
+
+{{$max_width := $imgData.Width}}
+{{$max_height := $imgData.Height}}
+{{$aspect := div $max_height $max_width }}
+{{$data_sizes := ""}}
+{{$sizes := (slice "300" "600" "900" "1200" "1500" "1800" "2000"  "2400")}}
+{{$maxed := false }}
+{{ range $size := $sizes }}
+  {{ if eq $maxed false }}
+  {{ if lt $size $max_width}}
+    {{$sizestring := print $size "x"}}
+    {{$new :=  $image.Resize $sizestring }}
+    {{ $data_sizes = print $data_sizes " " $new " " $size "w, " }}
+    {{else}}
+    {{$data_sizes = print $data_sizes " " $image}}
+    {{end}}
+  {{end}}
+{{ end }}
+
+{{$data_sizes}}
+
+
+
+
+<div class="responsive-image-wrap {{ if eq $style "cover"}}cover{{end}}">
+  <img class="lazyload {{ if eq $style "cover"}}cover{{end}}" src="{{$image}}"\>
+</div>
+{{end}}

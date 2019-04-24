@@ -1,0 +1,14 @@
+
+
+{{ define "main" }}
+
+TRYING AGAIN
+<div class="slide">
+    {{ range .Params.slide_content  }}
+
+    {{.Params.align}}
+         {{- if eq .template "full-page-slide" -}}{{partial "blocks/full-page-bg" (dict "Params" . )}}{{- end -}}
+       
+    {{ end }}
+</div>
+{{ end }}

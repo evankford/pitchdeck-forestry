@@ -11,9 +11,15 @@
 </div>
 
 <div class="all-pages">
-{{ range .Pages }}
-    {{/* The context, ".", is now each one of the pages as it goes through the loop */}}
-    {{ printf "%#v" . }}
+    PLEASE
+{{ range $pageid, $page := .Site.Pages }}
+
+{{$pagename := $page.Title}}
+
+{{$page.Type}}
+<li><a href="{{ "/" | relLangURL}}{{ $pagename | urlize }}">{{ $pagename }}</a>
+   
+</li>
 {{ end }}
 </div>
-{{ end }}
+{{ end }}   
