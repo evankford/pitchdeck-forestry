@@ -13,7 +13,7 @@ sections:
   - slide
   - pitch
 - type: directory
-  path: content/slides
+  path: content/slide
   label: Slides
   create: all
   match: "**/*"
