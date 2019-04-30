@@ -19,7 +19,7 @@ sections:
   match: "**/*"
   templates:
   - slide
-upload_dir: content/uploads
+upload_dir: content/uploads/images
 public_path: "/uploads"
 front_matter_path: "/uploads"
 use_front_matter_path: false
